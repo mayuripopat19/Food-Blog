@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .recipe-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .recipe-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .recipe-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .recipe-image {
+            width: 50%;
+            border-radius: 10px;
+        }
+        .recipe-details {
+            flex: 1;
+            text-align: left;
+        }
+        .recipe-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .recipe-details h2 {
+            color: #d32f2f;
+        }
+        .get-recipe-btn {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        /* Footer */
+.footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-top {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.footer-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-top p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+</style>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Veggie Delight</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="meals.html">MEALS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="meals.html">HEALTHY FOOD</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recipe.html">RECIPES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="recipe-section">
+        <h1>Recipes</h1>
+        <p>A recipe has no soul. You as the cook must bring soul to the recipe.</p>
+    </div>
+
+    <div class="container">
+        <div class="recipe-container">
+            <img src="avocado alfredo.jpg" alt="Avocado Alfredo" class="recipe-image">
+            <div class="recipe-details">
+                <h1 class="recipe-title">Avocado Alfredo</h1>
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>12 oz fettuccine pasta</li>
+                    <li>2 ripe avocados</li>
+                    <li>1/2 cup heavy cream</li>
+                    <li>1/4 cup grated Parmesan cheese</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>Juice of 1 lemon</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>Fresh basil for garnish</li>
+                </ul>
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>Cook fettuccine according to package instructions; drain and set aside.</li>
+                    <li>In a blender, combine avocados, heavy cream, Parmesan, garlic, and lemon juice. Blend until smooth.</li>
+                    <li>Season with salt and pepper to taste.</li>
+                    <li>Toss the pasta with the avocado Alfredo sauce until evenly coated.</li>
+                    <li>Garnish with fresh basil and serve immediately.</li>
+
+                </ol>
+                <button class="get-recipe-btn">GET THE RECIPE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="recipe-container">
+            <img src="Beans Bourguignon.webp" alt="Beans Bourguignon" class="recipe-image">
+            <div class="recipe-details">
+                <h1 class="recipe-title">Beans Bourguignon</h1>
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>2 cups cooked kidney beans</li>
+            <li>1 onion, diced</li>
+            <li>2 carrots, sliced</li>
+            <li>2 cloves garlic, minced</li>
+            <li>1 cup red wine</li>
+            <li>1 cup vegetable broth</li>
+            <li>2 tbsp tomato paste</li>
+            <li>1 tsp thyme</li>
+            <li>1 bay leaf</li>
+            <li>Salt and pepper to taste</li>
+                </ul>
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>In a large pan, sauté onions, carrots, and garlic until soft.</li>
+            <li>Add tomato paste, thyme, and cook for 1-2 minutes.</li>
+            <li>Pour in red wine and let it reduce by half.</li>
+            <li>Add vegetable broth, beans, and bay leaf, then simmer for 15 minutes.</li>
+            <li>Season with salt and pepper, remove bay leaf, and serve hot.</li>
+
+                </ol>
+                <button class="get-recipe-btn">GET THE RECIPE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <h2 class="footer-brand">Veggie Delight</h2>
+                <p>Since 2024, Veggie Delight has been the ultimate food resource for the home cook, with daily kitchen tips, 
+                    fun cooking videos, and, oh yeah, over 500 recipes.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>MORE FROM VEGGIE DELIGHT</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">The Veggie Delight App</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                        <li><a href="#">Subscription FAQs</a></li>
+                        <li><a href="#">Gift Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>CONNECT</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Center</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Masthead</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+    

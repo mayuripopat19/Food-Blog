@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .hero {
+            background: url('heromeals.avif') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .meal-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .meal-card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .btn-green {
+            background-color: green;
+            color: white;
+        }
+        .recipe-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        /* Footer */
+.footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-top {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.footer-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-top p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Veggie Delight</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="meals.html">MEALS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="healthy.html">HEALTHY FOOD</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recipe.html">RECIPES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero"></div>
+    <div class="recipe-section">
+        <h1>Delicious Meals</h1>
+        <p>Fulfill your comfort food cravings.</p>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal1.webp" alt="Meal 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Meal Name 1</h5>
+                        <p class="card-text">These egg sandwiches are big on flavor from melty cheese, fried onions, and Calabrian chile paste, and they can be made ahead of time and frozen so that they’re ready when you are.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal2.webp" alt="Meal 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Overnight Oats</h5>
+                        <p class="card-text">Open to infinite variations and requiring truly nominal effort, this creamy overnight oats recipe is the ideal breakfast for those short on time.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal3.webp" alt="Meal 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Make-Ahead Egg and Cheese Sandwiches</h5>
+                        <p class="card-text">These breakfast cookies have it all: chocolate, pecans, sesame seeds, and the nutty, rustic flavor of rye flour and oats.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal4.webp" alt="Meal 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Quick and Cheesy Omelet Roll-Up</h5>
+                        <p class="card-text">Craving something warm and savory with no time to spare? These omelet roll-ups take five minutes to make.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal5.webp" alt="Meal 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Granola Scones</h5>
+                        <p class="card-text">The flavors of a granola bar meet the flaky, buttery texture of a scone in this compact breakfast treat.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal6.webp" alt="Meal 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Nut Butter Granola Bars</h5>
+                        <p class="card-text">Bound together with honey and nut butter, these just-sweet-enough bars are sturdy enough to throw in a beach bag and substantial enough to power you through til sunset.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal7.webp" alt="Meal 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Blood Orange–Chia Pudding</h5>
+                        <p class="card-text">Why drink O.J. with your yogurt when you can mix it in?</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal8.webp" alt="Meal 8">
+                    <div class="card-body">
+                        <h5 class="card-title">British Flapjacks</h5>
+                        <p class="card-text">Not to be mistaken for American flapjacks (a.k.a. a stack of pancakes), these British oat bars make a fantastic on-the-go breakfast or snack.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal9.webp" alt="Meal 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Croissants (Pains au Chocolate)</h5>
+                        <p class="card-text">Making your own chocolate croissants is admittedly a project, but it’s one with a big payoff. These ones can be frozen individually and re-heated in an oven for five minutes whenever the craving strikes.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal10.webp" alt="Meal 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Granola Bark</h5>
+                        <p class="card-text">Elisabeth Prueitt’s granola bark works like a granola bar when you need to pack a quick breakfast, but you can also crumble it into crunchy clusters to sprinkle over your yogurt.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal11.webp" alt="Meal 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Everything Breakfast Pretzels</h5>
+                        <p class="card-text">If most cereal and granola bars are too sweet for your taste, then this recipe from Sarah Kieffer is the answer to your breakfast-on-the-go prayers. Think of it as a cross between a soft pretzel and an everything bagel.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card meal-card">
+                    <img src="meal12.webp" alt="Meal 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Morning Glory Muffins</h5>
+                        <p class="card-text">Packed with shredded carrot, canned pineapple, and toasted pecans, Morning Glory muffins are full of ’70s nostalgia and textural intrigue.</p>
+                        <a href="#" class="btn btn-outline-success">Get this Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <h2 class="footer-brand">Veggie Delight</h2>
+                <p>Since 2024, Veggie Delight has been the ultimate food resource for the home cook, with daily kitchen tips, 
+                    fun cooking videos, and, oh yeah, over 500 recipes.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>MORE FROM VEGGIE DELIGHT</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">The Veggie Delight App</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                        <li><a href="#">Subscription FAQs</a></li>
+                        <li><a href="#">Gift Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>CONNECT</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Center</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Masthead</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
